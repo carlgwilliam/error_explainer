@@ -14,6 +14,9 @@ def consent():
 
     config = configparser.ConfigParser()
     config.read("config.ini")
+    dologging = config["Options"].getboolean("logging")
+    if not dologging:
+        return 
     
     fname = os.path.expanduser(config["Paths"]["consent_file"])
 
@@ -59,6 +62,9 @@ def log(error_type, error_val, msg = True, time = True):
         
     fname = os.path.expanduser(config["Paths"]["logging_file"])
 
+    dologging = config["Options"].getboolean("logging")
+    if not dologging:
+        return 
     
     if not os.path.isdir(os.path.dirname(fname)) and os.path.dirname(fname):
         return        

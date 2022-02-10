@@ -20,9 +20,9 @@ import error_explainer
 
 That's it! The next time you encouter an Python error, an explaination will appear directly below the error in plain English.
 
-The modules paths and some of the messages can be configured by editing the `config.ini` file
 
-
+You can optionally log the error messages encountered by setting `logging` to `yes` in the `config.ini` file.  
+This file can also be used to configure the paths and some of the messages. 
 
 ## References
 
