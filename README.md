@@ -4,7 +4,7 @@ Error explainer is a tool for use with Jupyter notebooks that translates Python 
 
 <img src="img/error_explainer_demo.gif" alt="drawing" width="800"/>
 
-This tool was developed as part of a reserach project to fulfill the requirements of the Post Graduate Certificate in Academic Practice (PGCAP) [1], as a step toward becoming a fellow of the Higher Education Academy [2].
+This tool was developed as part of a research project to fulfil the requirements of the Post Graduate Certificate in Academic Practice (PGCAP) [1], as a step toward becoming a fellow of the Higher Education Academy [2].
 
 For any suggestions or questions, contact Carl Gwilliam [carl.gwilliam (at) liverpool.ac.uk)] and/or Tessa Charles [tessa.charles (at) liverpool.ac.uk)].
 
@@ -18,7 +18,7 @@ Open the Jupyter notebook and import the module via,
 import error_explainer
 ```
 
-That's it! The next time you encouter an Python error, an explaination will appear directly below the error in plain English.
+That's it! The next time you encounter an Python error, an explanation will appear directly below the error in plain English.
 
 
 You can optionally log the error messages encountered by setting `logging` to `yes` in the `config.ini` file.  
